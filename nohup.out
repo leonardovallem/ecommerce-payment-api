@@ -1,0 +1,68 @@
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+
+(java:36683): Gtk-WARNING **: 13:57:44.641: Theme parsing error: gtk-dark.css:6361:24: 'none' is not a valid color name
+
+(java:36683): Gtk-WARNING **: 13:57:45.827: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+ERROR: The file is locked: /home/leonardovallem/.cache/JetBrains/IdeaIC2020.3/icons-v2.db
+org.jetbrains.mvstore.MVStoreException: The file is locked: /home/leonardovallem/.cache/JetBrains/IdeaIC2020.3/icons-v2.db
+	at org.jetbrains.mvstore.FileStore.<init>(FileStore.java:109)
+	at org.jetbrains.mvstore.MVStore$Builder.createFileStore(MVStore.java:4031)
+	at org.jetbrains.mvstore.MVStore$Builder.openOrNewOnIoError(MVStore.java:3995)
+	at com.intellij.ui.svg.SvgCacheManager.<init>(SvgCacheManager.java:59)
+	at com.intellij.util.SVGLoader.<clinit>(SVGLoader.java:86)
+	at com.intellij.util.ImageLoader.loadByDescriptor(ImageLoader.java:252)
+	at com.intellij.util.ImageLoader.load(ImageLoader.java:224)
+	at com.intellij.openapi.util.IconLoader$ResolvedImageDataResolver.loadImage(IconLoader.java:1150)
+	at com.intellij.openapi.util.IconLoader$CachedImageIcon.loadImage(IconLoader.java:1017)
+	at com.intellij.openapi.util.IconLoader$ScaledIconCache.getOrScaleIcon(IconLoader.java:1087)
+	at com.intellij.openapi.util.IconLoader$CachedImageIcon.scale(IconLoader.java:932)
+	at com.intellij.util.IconUtil.scale(IconUtil.java:522)
+	at com.intellij.ui.AppUIUtil.scaleIconToSize(AppUIUtil.java:179)
+	at com.intellij.ui.AppUIUtil.loadApplicationIcon(AppUIUtil.java:171)
+	at com.intellij.ui.AppUIUtil.loadApplicationIconImage(AppUIUtil.java:150)
+	at com.intellij.ui.AppUIUtil.updateWindowIcon(AppUIUtil.java:76)
+	at com.intellij.idea.StartupUtil.updateFrameClassAndWindowIcon(StartupUtil.java:410)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:783)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Already running
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+
+(java:5861): Gtk-WARNING **: 09:15:58.652: Theme parsing error: gtk-dark.css:6361:24: 'none' is not a valid color name
+
+(java:5861): Gtk-WARNING **: 09:15:59.458: Theme parsing error: gtk.css:6361:24: 'none' is not a valid color name
+ERROR: The file is locked: /home/leonardovallem/.cache/JetBrains/IdeaIC2020.3/icons-v2.db
+org.jetbrains.mvstore.MVStoreException: The file is locked: /home/leonardovallem/.cache/JetBrains/IdeaIC2020.3/icons-v2.db
+	at org.jetbrains.mvstore.FileStore.<init>(FileStore.java:109)
+	at org.jetbrains.mvstore.MVStore$Builder.createFileStore(MVStore.java:4031)
+	at org.jetbrains.mvstore.MVStore$Builder.openOrNewOnIoError(MVStore.java:3995)
+	at com.intellij.ui.svg.SvgCacheManager.<init>(SvgCacheManager.java:59)
+	at com.intellij.util.SVGLoader.<clinit>(SVGLoader.java:86)
+	at com.intellij.util.ImageLoader.loadByDescriptor(ImageLoader.java:252)
+	at com.intellij.util.ImageLoader.load(ImageLoader.java:224)
+	at com.intellij.openapi.util.IconLoader$ResolvedImageDataResolver.loadImage(IconLoader.java:1150)
+	at com.intellij.openapi.util.IconLoader$CachedImageIcon.loadImage(IconLoader.java:1017)
+	at com.intellij.openapi.util.IconLoader$ScaledIconCache.getOrScaleIcon(IconLoader.java:1087)
+	at com.intellij.openapi.util.IconLoader$CachedImageIcon.scale(IconLoader.java:932)
+	at com.intellij.util.IconUtil.scale(IconUtil.java:522)
+	at com.intellij.ui.AppUIUtil.scaleIconToSize(AppUIUtil.java:179)
+	at com.intellij.ui.AppUIUtil.loadApplicationIcon(AppUIUtil.java:171)
+	at com.intellij.ui.AppUIUtil.loadApplicationIconImage(AppUIUtil.java:150)
+	at com.intellij.ui.AppUIUtil.updateWindowIcon(AppUIUtil.java:76)
+	at com.intellij.idea.StartupUtil.updateFrameClassAndWindowIcon(StartupUtil.java:410)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:783)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Already running
